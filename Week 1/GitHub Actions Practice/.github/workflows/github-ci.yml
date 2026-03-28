@@ -30,11 +30,11 @@ jobs:
     # Hint: Use pip to install packages from requirements.txt
       run: |
         python -m pip install --upgrade pip  
-        pip install -r <FILE NAME>.txt
+        pip install -r requirements.txt
 
   # Test job
   # TODO-STEP 4: Create your "Test" job
-    test:
+  test:
     # TODO-STEP 4a: Ensure this job runs after the build job.
     # NOTE: Make sure to use the Job Name used above in Line 14. 
     needs: build
