@@ -11,9 +11,9 @@ on:
 jobs:
   # Build job
   # TODO-STEP 3: Create your "Build" job
-  #<ENTER JOB NAME 1>:
+  build:
     # TODO-STEP 3a: Specify the runner for this job
-    #runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
